@@ -1,0 +1,35 @@
+/*обнуление стилей базавое*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*основной стиль*/
+img {
+    display: block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #212121;
+    margin: 0px;
+}
+
+/*Убираем точки элементов списка*/
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*убираем подчеркивание ссылок*/
+a,
+a:visited {
+    text-decoration: none;
+}
+
