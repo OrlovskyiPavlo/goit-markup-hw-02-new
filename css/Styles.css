@@ -1,35 +1,186 @@
-/*обнуление стилей базавое*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/*основной стиль*/
-img {
-    display: block;
-}
-
 body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.03em;
-    font-size: 14px;
-    line-height: 1.71;
-    color: #212121;
-    margin: 0px;
+    font-family: "Roboto", "sans-serif";
+    color:#434455;
+    background-color: #ffffff;
 }
-
-/*Убираем точки элементов списка*/
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-/*убираем подчеркивание ссылок*/
 a,
 a:visited {
     text-decoration: none;
 }
+ul, ol {
+    list-style-type: none;
+}
 
+.logo {
+    color:#4D5AE5;
+    font-family: "Raleway", "sans-serif";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.logo-black { 
+    color:#2E2F42;
+}
+
+.nav-link {
+    color: #2E2F42;
+    font-size: 16PX;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color:#404BBF;
+}
+ 
+.address{
+    font-style:normal;
+} 
+
+.address-link { 
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.address-link:hover,
+.address-link:focus{
+    color:#404BBF;
+}
+h1 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #ffffff;
+}
+h2 {
+    font-size: 36px;
+    line-height: 1.16;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+/*Remove margin for headders of 3rd lvl*/
+h3 {
+    margin: 0;
+}
+h3 p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #2E2F42;
+    letter-spacing: 0.03em;
+}
+
+.hero {
+    background-size: cover;
+    background-position: absolute;
+    background-color: #2E2F42;
+    text-align: center;
+    height: 600px;
+}
+/*Draw the Hero button*/
+.button {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #2196f3;
+    background-color: #2196f3;
+    letter-spacing: 0.06em;
+    line-height: 1.87;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+.advantages {
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+}
+
+/* Hide pseudo title */
+.advantages-title {
+    display: none;
+}
+
+.advantages,
+.group p {
+    line-height: 1.7;
+    color:#2E2F42;
+}
+
+.group-title {
+    width: 162px;
+    height: 40px;
+    font-size: 36px;
+
+
+}
+
+.employee-list {
+    background-color: #F4F4FD;
+}
+/* Later needed for flex arrangents
+.employee-card {
+}
+*/
+.employee-list > li {
+    background-color: #ffffff;
+    width: 264px;
+    height: 380px;
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+}
+.employee-name {
+    line-height: 1.2;
+}
+
+/* Later needed for flex arrangents
+.portfolio {} */
+/* Later needed for flex arrangents
+.portfolio-title {}*/
+/*
+.projects-list {}*/
+
+.project-link {
+    background-color: #ffffff;
+    width: 360px;
+    height: 120px;
+    border-radius: 0px 1px 1px 1px;
+    text-align: left;
+}
+
+.project-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.project-link p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434455;
+}
+
+footer {
+    background-color: #2E2F42;
+    height: 312px;
+}
+footer p{
+    color: #F4F4FD;
+}
+.logo-white{
+    color: #F4F4FD;
+}
